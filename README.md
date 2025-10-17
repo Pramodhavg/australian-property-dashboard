@@ -1,4 +1,4 @@
-# Australian Property Micro-Dashboard 
+# Australian Property Micro-Dashboard 🏠
 
 An interactive React + FastAPI dashboard visualising property yield and market speed,
 with an AI Property Coach powered by OpenAI.
@@ -17,3 +17,16 @@ python -m venv .venv
 .venv\Scripts\activate  # or source .venv/bin/activate
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
+
+# Frontend
+cd ../frontend
+npm install
+npm run dev
+
+
+Then:
+```bash
+git add README.md
+git commit -m "Add README.md"
+git push
+
